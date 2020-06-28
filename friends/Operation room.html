@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html  lang="en">
+   <head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+     <style>
+     *{
+       margin: 0;
+
+     }
+     body{
+       background-color: #cce5ff;
+     }
+     .head {
+       padding: 30px;
+       text-align: center;
+       background: white;
+       height: 100px;
+       width:100%;
+       height: 30%;
+
+     }
+
+     .head h1 {
+       font-size: 50px;
+     }
+
+     .card{
+       height: 300px;
+       width: 230px;
+       text-align: center;
+       border-radius: 10px;
+       border: 5px solid black;
+       background-color:#00b3b3 ;
+       color:#00000f;
+       font-size:45px;
+       margin: 10px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-wrap: wrap;
+     }
+     .container{
+       margin: 30px 220px;
+       display: grid;
+       /*grid-template-columns:300px 300px 300px ;
+       grid-template-rows:2 ;
+       grid-gap:30px ;
+       justify-content: center;*/
+       display: flex;
+       flex-wrap: wrap;
+       align-items: center;
+       justify-content: center;
+
+
+     }
+     img{
+       height: 270px;
+       width: 200px;
+       border-radius: 10px;
+     }
+     .container1 {
+       position: relative;
+       width: 50%;
+     }
+
+
+
+     .overlay {
+       position: absolute;
+       bottom: 0;
+       left: 0;
+       right: 0;
+       background-color:#99ff66;/*loooooooooooooooooooooooooook*/
+       overflow: hidden;
+       width: 193%;
+       height: 0;
+       transition: .5s ease;
+     }
+
+     .container1:hover .overlay {
+       height: 100%;
+     }
+
+     .text1 {
+       white-space: nowrap;
+       color: #00000f;
+       font-size: 20px;
+       font-weight: bold;
+       font-family: sans-serif;
+       position: absolute;
+       overflow: hidden;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       -ms-transform: translate(-50%, -50%);
+     }
+     a:link {
+       text-decoration: none;
+     }
+     .fa {
+       padding: 5px;
+       font-size: 30px;
+       width: 30px;
+       text-align: center;
+       text-decoration: none;
+       margin: 5px 2px;
+       border-radius: 10px;
+     }
+
+     .fa:hover {
+         opacity: 0.7;
+     }
+
+     .fa-google {
+       background: #dd4b39;
+       color: white;
+
+     }
+
+     .fa-facebook {
+       background: #3B5998;
+       color: white;
+     }
+     button{
+       background-color: #00b3b3 ;    /* #00cc99  #7575a3  #004d38 */
+       font-size: 45px;
+       border-radius: 8px;
+       border: 2px solid #29293d ;
+       padding: 12px 28px;
+       transition-duration: 0.5s;
+       color: white;
+     }
+     button:hover {
+       background-color: white;
+       color: black;
+     }
+     .footer{
+       width: 100%;
+       text-align: center;
+       background-color: white;
+     }
+
+     </style>
+
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title> Operation Room </title>
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   </head>
+   <body>
+<div class="head">
+  <h1>غرفة عمليات الثانويه العامه بمحافظه البحر الأحمر</h1>
+  <p>2019/2020</P>
+  </div>
+
+
+
+
+
+
+
+     <div class="container">
+
+           <div class="item">
+           <div class="container1">
+       <div class="card"><P>About</div>
+           <div class="overlay">
+        <div class="text1">نهتم باراء طلاب الثانويه العامه <br>و نحاول حل مشكلاتهم أولا بأول</div></div></div>
+           </div>
+
+
+
+           <div class="item">
+           <div class="container1">
+       <div class="card"><p>Members</div>
+         <div class="overlay">
+         <div class="text1">Shymaa El-hadad<br>Mohamed Adel<br>Assem Hamdy</div></div></div>
+         </div>
+
+
+
+
+         <div class="item">
+         <div class="container1">
+       <div class="card"><p>Contact us</div>
+         <div class="overlay">
+         <div class="text1"><a href="mailto:RedSeaStudentUnion@gmail.com" class="fa fa-google" target="_blank"></a> <br>
+           <a href="https://www.facebook.com/106155001150303?referrer=whatsapp" class="fa fa-facebook" target="_blank"></a><br>
+             01019946512
+          </div></div></div>
+         </div>
+
+
+         <div class="item">
+         <div class="container1">
+       <div class="card"><a href="https://www.thanaweya.net/en/home" target="_blank">Revision</a></div>
+       <div class="overlay">
+       <div class="text1"><a href="https://www.thanaweya.net/en/home" target="_blank">موقع مراجعات الثانويه <br>العامه التابع للوزاره</a></div></div></div>
+       </div>
+
+      
+
+       <div class="card">
+           <button onclick="document.location = 'https://docs.google.com/forms/d/e/1FAIpQLSfsM4_qGLPc2qewve6tbcI2Qq3WdQ9dRAKPHteXNEFwkUMjLg/viewform?usp=sf_link'">
+             Form </button>
+
+
+       </div>
+
+
+
+
+       <div class="card"><a href="http://www.moe.gov.eg/" target="_blank">Ministry of Education</a></div>
+     </div>
+
+
+<div class="footer">
+       <P class="copyrights">copyrights &copy; 2020 by &reg; M.Adel</p>
+</div>
+
+     </div>
+     </body>
+     </html>
